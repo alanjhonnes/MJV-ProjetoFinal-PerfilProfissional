@@ -1,0 +1,65 @@
+div {
+  width: 900px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: -8px 0px 6px -6px rgba(0, 0, 0, 0.5),
+    8px 0px 6px -6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.bloco {
+  background-color: #ccdcf2;
+  margin: 20px auto 0px auto;
+  width: 800px;
+}
+
+.blocoP {
+  background-color: #ffffff;
+  margin: 20px auto 0px auto;
+  width: 750px;
+}
+
+.blocoImg {
+  background-color: #ccdcf2;
+  margin: 20px auto 0px auto;
+  width: 800px;
+  height: 205px;
+}
+
+p {
+  text-align: justify;
+  color: #004c6d;
+  text-decoration: none;
+}
+
+h2 {
+  border-bottom: 1px solid #004c6d;
+  font-family: sans-serif;
+  color: #004c6d;
+  font-size: 15pt;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30pt;
+  color: #004c6d;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0.6);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+
+
+img {
+  max-width: 17%;
+  margin: 10px;
+  float: left;
+  border-radius: 20%;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+
+}
+
+

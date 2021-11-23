@@ -1,0 +1,30 @@
+div {
+  width: 900px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: -8px 0px 6px -6px rgba(0, 0, 0, 0.5),
+    8px 0px 6px -6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.bloco {
+  background-color: #ccdcf2;
+  margin: 20px auto 0px auto;
+  width: 800px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30pt;
+  color: #004c6d;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0.6);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  color: #004c6d;
+  text-decoration: none;
+}

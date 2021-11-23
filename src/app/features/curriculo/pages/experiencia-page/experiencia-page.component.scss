@@ -1,0 +1,50 @@
+div {
+  width: 900px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: -8px 0px 6px -6px rgba(0, 0, 0, 0.5),
+    8px 0px 6px -6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  
+}
+
+.bloco {
+  background-color: #ccdcf2;
+  margin: 20px auto 0px auto;
+  width: 800px;
+  height: 205px;
+}
+
+p {
+  text-align: justify;
+  color: #004c6d;
+  text-decoration: none;
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30pt;
+  color: #004c6d;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0.6);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #004c6d;
+  font-size: 15pt;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+img {
+  max-width: 200px;
+  float: left;
+  margin: 10px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+

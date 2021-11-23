@@ -1,0 +1,49 @@
+"Como Organizar o Orçamento Familiar"
+"FGV Online"
+"12 horas"
+
+
+"Informática Módulo Básico"
+"SpeedCursos"
+"96 horas"
+
+
+"Informática Web Design"
+"SpeedCursos"
+"56 horas"
+
+"Informática Editoração Gráfica"
+"SpeedCursos"
+"56 horas"
+
+"Recepção Hospitalar"
+"Signum"
+"16 horas"
+
+"Fundamentos de TI: Hardware e Software"
+"Fundação Bradesco"
+"15 horas"
+
+"Microsoft Word 2013 - Básico"
+"Fundação Bradesco"
+"09 horas"
+
+"Microsoft Excel 2013 - Básico"
+"Fundação Bradesco"
+"15 horas"
+
+"Microsoft PowerPoint 2013 - Básico"
+"Fundação Bradesco"
+"12 horas"
+
+"Principios Básicos de um Computador"
+"NepsAcademy"
+"10 horas"
+
+"Lógica de Programação"
+"Univesp-ViaRapida"
+"80 horas"
+
+
+
+

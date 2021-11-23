@@ -1,0 +1,42 @@
+
+<div>
+  <h1>Qualificações</h1>
+</div>
+<div>
+ <div class="bloco">
+    <h2>{{ tituloFAcademica}}</h2>
+    <div class="blocoP" *ngFor="let item of formacaoAcademica">
+      <p><b>Curso: </b>{{ item.curso }}</p>
+      <p><b>Faculdade: </b>{{ item.escola }}</p>
+      <p><b>Conclusão: </b>{{ item.conclusao }}</p>
+    </div>
+  </div>
+<div class="bloco">
+  <h2>{{ tituloIdioma }}</h2>
+  <div class="blocoP" *ngFor="let item of cursosIdiomas">
+    <p><b>Idioma: </b>{{ item.idioma }}</p>
+    <p><b>Escola: </b>{{ item.escola }}</p>
+    <p><b>Nível: </b>{{ item.nivel }}</p>
+  </div>
+  </div>
+  <div class="bloco">
+<h2>{{ tituloCursos }}</h2>
+    <p class="filter">
+      <b>Busca por curso: </b>
+      <input type="text" class="input-busca" (keyup)="searchCurso($event)" />
+  
+  <div class="blocoP" *ngFor="let item of filteredQualificacoes">
+    <p>{{ item.curso }}</p><a class="button" (click)="navigateToCertificado()">Certificado</a>
+  </div>
+  <div class="mensagem" *ngIf="filteredQualificacoes.length === 0">
+    <b>Curso Não Encontrado!</b>
+  </div>
+  </div>
+
+</div>
+
+
+
+
+
+
