@@ -1,17 +1,14 @@
-<app-header></app-header>
-
 <div>
+  <h1>{{ nome }}</h1>
 
-<h1>{{ nome }}</h1>
- 
- <div class="blocoImg">
+  <div class="blocoImg">
     <h2>Dados Pessoais</h2>
-    <img src="/assets/imagens/lais3.jpg">
+    <img src="/assets/imagens/lais3.jpg" />
     <p><b>Idade: </b>{{ dadosPessoais.idade }}</p>
     <p><b>Nacionalidade: </b>{{ dadosPessoais.nacionalidade }}</p>
     <p><b>Estado Civil: </b>{{ dadosPessoais.estadoCivil }}</p>
   </div>
-    <div class="bloco">
+  <div class="bloco">
     <h2>Objetivo</h2>
     <p>{{ dadosPessoais.objetivo }}</p>
   </div>
@@ -32,6 +29,4 @@
       e vendas)
     </p>
   </div>
-
-  </div>
-<app-footer></app-footer>
+</div>

@@ -5,14 +5,20 @@ import { CertificadoPageComponent } from './features/curriculo/pages/certificado
 import { ExperienciaPageComponent } from './features/curriculo/pages/experiencia-page/experiencia-page.component';
 import { QualificacoesPageComponent } from './features/curriculo/pages/qualificacoes-page/qualificacoes-page.component';
 import { HomeComponent } from './features/home/pages/home/home.component';
+import { LayoutPageComponent } from './features/layout/pages/layout-page/layout-page.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'home'},
-  { path: 'home', component: HomeComponent},
-  { path: 'qualificacoes', component: QualificacoesPageComponent},
-  { path: 'experiencia', component: ExperienciaPageComponent},
-  { path: 'contato', component: ContatoPageComponent},
-  { path: 'certificado/:id', component: CertificadoPageComponent}
+  {
+    path: '', component: LayoutPageComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: 'home' },
+      { path: 'home', component: HomeComponent },
+      { path: 'qualificacoes', component: QualificacoesPageComponent },
+      { path: 'experiencia', component: ExperienciaPageComponent },
+      { path: 'contato', component: ContatoPageComponent },
+      { path: 'certificado/:id', component: CertificadoPageComponent }
+    ]
+  },
 ];
 
 @NgModule({

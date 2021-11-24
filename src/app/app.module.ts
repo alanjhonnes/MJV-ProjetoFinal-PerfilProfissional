@@ -9,6 +9,7 @@ import { registerLocaleData } from '@angular/common';
 import { LOCALE_ID } from '@angular/core';
 import localePt from '@angular/common/locales/pt';
 import { ContatoModule } from './features/contato/contato.module';
+import { LayoutModule } from './features/layout/layout.module';
 
 registerLocaleData(localePt);
 
@@ -19,10 +20,11 @@ registerLocaleData(localePt);
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, 
-    HomeModule, 
-    CurriculoModule, 
-    ContatoModule
+    AppRoutingModule,
+    HomeModule,
+    CurriculoModule,
+    ContatoModule,
+    LayoutModule,
   ],
   providers: [
     {
