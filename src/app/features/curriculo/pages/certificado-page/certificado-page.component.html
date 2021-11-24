@@ -1,7 +1,13 @@
 <app-header></app-header>
 <div>
-<h1>Certificado</h1>
-<img src="https://fecomercio-ma.com.br/wp-content/uploads/2019/05/pagina-em-construcao.jpg">
+    <h1>Certificado</h1>
+  
+
+    <div class="bloco" *ngFor="let item of cursos">
+    <p><b>Curso: </b>{{ item.curso }}</p>
+      <img src="{{item.certificado}}">
+    </div>
+ 
 </div>
   <app-footer></app-footer>
 

@@ -10,12 +10,16 @@ import { Qualificacoes } from '../models/curriculo.model';
 export class CertificadoPageComponent implements OnInit {
 
   curso: Qualificacoes | undefined;
+
+  cursos: Array<Qualificacoes> = [ ];
   
   
   constructor(private activatedRoute: ActivatedRoute,
     private qualificacoesService: QualificacoesService) { }
 
   ngOnInit(): void {
+    this.cursos = this.qualificacoesService.getQualificacoes();
+    
     this.activatedRoute.params.subscribe((params) => {
       const curso = this.qualificacoesService.getCertificadoById(params.id);
       this.curso = curso;

@@ -10,7 +10,10 @@ import { QualificacoesService } from '../../services/qualificacoes.service';
 })
 export class QualificacoesComponent implements OnInit {
   @Input()
-  curso?: Qualificacoes;
+  condition?: boolean;
+
+  @Input()
+  qualificacoes?: Qualificacoes;
 
   tituloFAcademica = "Formação Acadêmica"
   tituloIdioma = "Idiomas";
@@ -63,6 +66,7 @@ export class QualificacoesComponent implements OnInit {
     }
 
     navigateToCertificado(){
-      this.router.navigateByUrl('certificado/${this.cursos.id}');
+      this.router.navigateByUrl(`certificado/${this.cursos}`);
+      /**this.router.navigateByUrl(`certificado/${this.cursos?.id}`); */
     }
 }

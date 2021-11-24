@@ -12,16 +12,13 @@ div {
   background-color: #ccdcf2;
   margin: 20px auto 0px auto;
   width: 800px;
-  height: 205px;
+  height: 500px;
 }
 
-h2 {
-  text-align: center;
-  font-family: sans-serif;
+p {
+  text-align: justify;
   color: #004c6d;
-  font-size: 15pt;
-  padding: 0px;
-  margin-top: 0px;
+  text-decoration: none;
 }
 h1 {
   font-family: Helvetica, sans-serif;
@@ -34,6 +31,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #004c6d;
+  font-size: 15pt;
+  padding: 0px;
+  margin-top: 0px;
+}
 
 img {
   max-width: 500px;
