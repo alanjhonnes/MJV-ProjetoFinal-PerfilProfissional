@@ -24,9 +24,9 @@
     <p class="filter">
       <b>Busca por curso: </b>
       <input type="text" class="input-busca" (keyup)="searchCurso($event)" />
-  
+
   <div class="blocoP" *ngFor="let item of filteredQualificacoes">
-    <p>{{ item.curso }}</p><a class="button" (click)="navigateToCertificado()">Certificado</a>
+    <p>{{ item.curso }}</p><a class="button" (click)="navigateToCertificado(item)">Certificado</a>
   </div>
   <div class="mensagem" *ngIf="filteredQualificacoes.length === 0">
     <b>Curso Não Encontrado!</b>

@@ -32,7 +32,7 @@ export class QualificacoesComponent implements OnInit {
       conclusao: '08/2015',
     },
   ];
-  
+
   cursosIdiomas: Array<CursoIdiomas> = [
     {idioma: "Inglês",
     escola: "Seda College Online",
@@ -46,7 +46,7 @@ export class QualificacoesComponent implements OnInit {
 
   cursos: Array<Qualificacoes> = [ ];
 
-  filteredQualificacoes: Array<Qualificacoes> = [ ]; 
+  filteredQualificacoes: Array<Qualificacoes> = [ ];
 
 
 
@@ -65,8 +65,7 @@ export class QualificacoesComponent implements OnInit {
     this.filteredQualificacoes = cursos;
     }
 
-    navigateToCertificado(){
-      this.router.navigateByUrl(`certificado/${this.cursos}`);
-      /**this.router.navigateByUrl(`certificado/${this.cursos?.id}`); */
+    navigateToCertificado(curso: Qualificacoes){
+      this.router.navigateByUrl(`certificado/${curso.id}`);
     }
 }

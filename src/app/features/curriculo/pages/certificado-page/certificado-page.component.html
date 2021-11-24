@@ -1,13 +1,10 @@
 <app-header></app-header>
 <div>
     <h1>Certificado</h1>
-  
 
-    <div class="bloco" *ngFor="let item of cursos">
-    <p><b>Curso: </b>{{ item.curso }}</p>
-      <img src="{{item.certificado}}">
-    </div>
- 
+    <p><b>Curso: </b>{{ curso?.curso }}</p>
+      <img src="{{curso?.certificado}}">
+
 </div>
   <app-footer></app-footer>
 
